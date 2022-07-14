@@ -1,0 +1,84 @@
+body {
+    font-size: 14px !important;
+    font-family: 'arial' !important;
+}
+
+img {
+    margin-bottom: 28px;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.footer {
+    padding: 0 20px;
+    background-color: #f2f3f5;
+    color: #70757a;
+}
+
+.footer .navbar-nav .nav-link.active {
+    color: #70757a;
+    padding: 15px;
+}
+
+.input-search {
+    border: none;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+.input-group {
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 100px;
+    margin-top: 30px;
+    width: 45%;
+    margin: auto;
+}
+
+.input-group:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn-light {
+    color: #3c4043;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-color: rgb(248, 249, 250);
+    background-color: rgb(248, 249, 250);
+    margin-left: 10px;
+}
+
+.btn-light:hover {
+    border: 1px solid #c9c9c9;
+}
+
+#search-logo {
+    color: #9aa0a6;
+    border-radius: 100px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+#voice-logo {
+    border: none;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+#leaf-logo {
+    margin-bottom: 7px;
+}
+
+#leaf {
+    margin-right:100px;
+}
