@@ -7,6 +7,12 @@ img {
     margin-bottom: 28px;
 }
 
+button {
+    border: none !important;
+    border-radius: 100px !important;
+    background-color: white;
+}
+
 .container {
     margin-top: 200px;
 }
@@ -26,6 +32,11 @@ img {
     border: none;
 }
 
+.input-search:focus {
+    box-shadow: none;
+}
+
+
 .input-group-text {
     background-color: white;
 }
@@ -42,22 +53,30 @@ img {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.btn {
-    margin-top: 20px;
-}
-
 .btn-light {
-    color: #3c4043;
     font-size: 14px;
-    padding-left: 16px;
-    padding-right: 16px;
+    color: #3c4043;
     border-color: rgb(248, 249, 250);
     background-color: rgb(248, 249, 250);
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
 .btn-light:hover {
     border: 1px solid #c9c9c9;
+}
+
+.icon {
+    border: none;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.image-logo {
+    margin-bottom: 0px;
 }
 
 #search-logo {
@@ -75,10 +94,24 @@ img {
     margin-right: 1px;
 }
 
+#search-logo-right {
+    margin-bottom: 4px;
+    border-radius: 100px;
+    color: rgb(66, 133, 244);
+}
+
 #leaf-logo {
     margin-bottom: 7px;
 }
 
 #leaf {
     margin-right:100px;
+}
+
+#image-text {
+    position: relative;
+    bottom: 20px;
+    left: 105px;
+    color: #4285f4;
+    font-size: 16px;
 }
