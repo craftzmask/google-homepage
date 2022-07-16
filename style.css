@@ -5,3 +5,10 @@ body {
 .form-control:focus {
     box-shadow: none;
 }
+
+.img-logo {
+    position: relative;
+    bottom: 20px;
+    left: 105px;
+    font-size: 16px;
+}
