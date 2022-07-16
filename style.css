@@ -22,3 +22,11 @@ body {
     font-weight: bold;
     background-color: #4d90fe;
 }
+
+.instruction {
+    font-size: 11px;
+}
+
+.example {
+    font-size: 11px;
+}
